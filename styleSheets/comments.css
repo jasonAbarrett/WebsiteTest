@@ -1,0 +1,136 @@
+/* External Style Sheet for allProducts.html Page
+
+Author:  Jason Barrett
+Date:    08/07/2018
+*/
+body  {
+  background-color: bisque;
+/*  padding: 2em;  */
+margin-left: 2em;
+margin-right: 2em;
+}
+
+
+nav {
+    text-align: center;
+    font-weight: bolder;
+  }
+
+nav a:link  {
+    color: green;
+}
+
+nav a:hover {
+    color: orange;
+    text-shadow: .2em .2em silver;
+}
+
+header h1   {
+    text-align: center;
+    color: green;
+    font-size: 2.5em;
+    background-color: lightgray;
+}
+
+h2   {
+    text-align: center;
+    color: green;
+    font-size: 1.75em;
+    }
+
+    form {
+      list-style-type: none;
+      text-align: left;
+      border: 3px solid grey;
+      border-radius: 1em;
+      padding: 2em;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      background-color: powderblue;
+}
+
+    .blocktext   {
+      /*  border: 2px solid red;  */
+      width: 100px;
+      display: inline-block;
+    }
+
+  footer address {
+  text-align: right;
+}
+footer  {
+    background-color: #DDFF7F;
+}
+footer a:link  {
+    coler: green;
+}
+
+div.center  {
+    text-align: center;
+    margin-top: 2em;
+}
+
+h3    {
+    text-align: center;
+    text-shadow: .2em .2em silver;
+    color: green;
+    text-transform: uppercase;
+}
+
+#custcomm {
+  text-align: center;
+}
+
+#InputComment   {
+    width: 100%
+}
+
+#sale  {
+    font-family: Courier, monospace;
+    font-size: 75%;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#left   {
+  text-align: left;
+  text-transform: uppercase;
+  text-shadow: .2em .2em silver;
+  color: green;
+}
+
+#FNerror  {
+    font-size: 1em;
+    font-style: italic;
+    color: red;
+    font-size: .75em;
+}
+
+#LNerror  {
+    font-size: 1em;
+    font-style: italic;
+    color: red;
+    font-size: .75em;
+}
+
+#Comerror  {
+    font-size: 1em;
+    font-style: italic;
+    color: red;
+    font-size: .75em;
+}
+
+#noblock  {
+    display: inline;
+}
+
+#centerbuttons  {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    }
+
+fieldset  {
+  display: none;
+}
