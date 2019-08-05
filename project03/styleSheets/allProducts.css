@@ -1,0 +1,90 @@
+/* External Style Sheet for allProducts.html Page
+
+Author:  Jason Barrett
+Date:    07/22/2018
+*/
+nav {
+    text-align: center;
+    font-weight: bolder;
+  }
+
+nav a:link  {
+    color: green;
+}
+
+nav a:hover {
+    color: orange;
+    text-shadow: .2em .2em silver;
+}
+
+header h1   {
+    text-align: center;
+    color: green;
+    font-size: 2.5em;
+    background-color: lightgray;
+}
+
+footer address {
+  text-align: right;
+}
+footer  {
+    background-color: #DDFF7F;
+}
+footer a:link  {
+    coler: green;
+}
+
+div.center  {
+    text-align: center;
+    margin-top: 2em;
+}
+
+h3    {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: .2em .2em silver;
+    color: green;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: green;
+    text-align: center;
+    }
+
+
+td {
+    border: 1px solid black;
+    padding: 1em;
+        }
+
+td  {
+    width: 40%;
+}
+
+td#width1  {
+    width: 25%;
+    text-align: center;
+}
+
+table img {
+  width: 100%
+  }
+
+#sale  {
+    font-family: Courier, monospace;
+    font-size: 75%;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#left   {
+  text-align: left;
+  text-transform: uppercase;
+  text-shadow: .2em .2em silver;
+  color: green;
+}

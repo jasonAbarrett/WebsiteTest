@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--  Author:  Jason Barrett
+        Date:    08/08/2018
+  -->
+  <title>Join the Arte del Mundo Artists Family</title>
+  <meta charset="UTF-8"  />
+  <script src="../javaScriptFiles/newArtist.js"></script>
+  <link href="../styleSheets/newArtist.css"
+        rel="stylesheet"
+        type="text/css"  />
+  </head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Home</a>&nbsp;&#8226;&nbsp;
+      <a href="allProducts.html">All Products</a>&nbsp;&#8226;&nbsp;
+      <a href="allArtists.html">All Artists</a>&nbsp;&#8226;&nbsp;
+      <a href="faq.html">FAQ</a>&nbsp;&#8226;&nbsp;
+      <a href="friendsinfo.html">Friends</a>
+    </nav>
+    <h1>New Artist Application Form</h1>
+  <hr>
+  </header>
+
+  <main>
+  <section>
+    <h2 id="custcomm">For Use by Artists Wishing to Join the Arte del
+                      Mundo Family of Artists</h2>
+
+    <p>Please fill out the form below if you are an artist that wishes to
+    begin selling your artwork via the Arte del Mundo website. The information
+    gathered will be used by staff to help build a webpage about you and
+    your artwork. A staff member will contact you to discuss your future website.
+    Please wait approximately 24 hours for an artist ID and password to be
+    provided.</p>
+
+    <article>
+      <h3 hidden>Form</h3>
+      <form id="formclear" name="form02" action="http://itins3.madisoncollege.edu/echo.php" method="post" onSubmit="return checkAll1();">
+
+      <fieldset class="boxpad">
+        <legend>Artist Information</legend>
+          <label class="agreeblock1">Artist Legal Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="text"
+               name="firstname"
+               id="nameFirst1"
+               placeholder="First Name"
+               maxlength="20"
+               />&nbsp;&nbsp;&nbsp;&nbsp;
+               <span id="FNerror"></span>
+
+          <input type="text"
+              name="lastname"
+              id="nameLast1"
+              placeholder="Last Name"
+              maxlength="25"
+              />  <br/><br/>
+              <span id="LNerror"></span>
+
+          <label class="agreeblock1">Address:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="text"
+             name="your_address"
+             id="address"
+             placeholder="Street Address"
+            maxlength="35"
+             /><br/><br/>
+
+
+          <label class="agreeblock1">City:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type="text"
+            name="your_city"
+            id="city"
+            placeholder="City"
+            maxlength="20"
+            />
+
+          <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;State:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type="text"
+            name="your_state"
+            id="state"
+            placeholder="State, Province, or Region"
+            maxlength="20"
+            />
+
+          <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zip:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type="text"
+            name="your_zip"
+            id="zip"
+            placeholder="Zip or Mailing Code"
+            maxlength="15"
+            /><br/><br/>
+
+            <span class="agreeblock1">Country:&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <select required name="country" id="cid">
+              <option value="">Please select</option>
+              <option value="peru">Peru</option>
+              <option value="arg">Argentina</option>
+              <option value="bras">Brasil</option>
+              <option value="ugan">Uganda</option>
+              <option value="moz">Mozambique</option>
+              <option value="egy">Egypt</option>
+              <option value="span">Spain</option>
+              <option value="fin">Finland</option>
+              <option value="chin">China</option>
+              <option value="thai">Thailand</option>
+            </select><br/><br/>
+
+            <span class="agreeblock1">Gender:&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <select required name="gender">
+              <option value="">Please select</option>
+              <option value="fem">Female</option>
+              <option value="male">Male</option>
+              <option value="na">Not Answered</option>
+            </select><br/><br/>
+
+            <label class="agreeblock1">Local Telephone:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+             <input type="text"
+              name="local_telephone"
+              id="tele"
+              placeholder="Telephone Number"
+              maxlength="15"
+              /><br/><br/>
+
+            <label class="agreeblock1" id="emailsize">Email:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+             <input type="email"
+              name="email_address"
+              id="email1"
+              placeholder="Email Address"
+              maxlength="40"
+              /><br/>
+
+      </fieldset>
+
+      <br/>
+      <fieldset class="boxpad">
+        <legend>Media in which you work</legend>
+          <input type="checkbox" name="ceramic" value="ceramic" id="ceram"/>Ceramic
+          <input type="checkbox" name="fabric" value="fabric"/>Fabric
+          <input type="checkbox" name="metal" value="metal"/>Metal
+          <input type="checkbox" name="paint" value="paint"/>Paint
+          <input type="checkbox" name="wood" value="wood"/>Wood
+          <input type="checkbox" name="plastic" value="plastic"/>Plastic
+          <input type="checkbox" name="paper" value="paper"/>Paper
+          <input type="checkbox" name="stone" value="stone"/>Stone
+          <input type="checkbox" name="glass" value="glass"/>Glass
+          <input type="checkbox" name="other" value="other"/>Other
+      </fieldset>
+
+
+      <br/>
+      <fieldset class="boxpad">
+        <legend>Agreements</legend>
+          <label class="agreeblock">Discount for Quantity?&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" name="yesornodiscount" value="Y"/>Yes
+            <input type="radio" name="yesornodiscount" value="N" checked="checked"/>No
+            <br/><br/>
+          <label class="agreeblock">Work under professional name?&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" name="yesornowork" value="Y"/>Yes
+            <input type="radio" name="yesornowork" value="N" checked="checked"/>No
+            <br/><br/>
+          <label class="agreeblock">Agree to sell only own work?&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="radio" name="yesornoagree" value="Y" checked="checked"/>Yes
+            <input type="radio" name="yesornoagree" value="N" />No
+      </fieldset>
+
+      <br/>
+      <fieldset class="boxpad">
+        <legend>Account Security</legend>
+          <label class="agreeblock1">Password:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <input type="password"
+             name="password"
+             id="pass"
+             placeholder="Enter your password"
+             maxlength="15"
+             /><br/><br/>
+
+          <label class="agreeblock1">Confirm Password:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type="password"
+              name="password_confirm"
+              id="passconfirm"
+              placeholder="Confirm your password"
+              maxlength="15"
+              /><br/>
+      </fieldset>
+
+      <br/>
+      <div id="noblock">Provide a brief biography:</div><span id="Comerror"></span>
+      <textarea rows="5" id="InputComment1"
+      name="CommentInput"
+      placeholder="Enter your comment here, then click the Submit button"
+      maxlength="1000"></textarea>
+
+      <br /><br />
+
+    <div id="centerbuttons1">
+      <input type="submit" value="Submit My Comment" id="submit-button"/>
+      &nbsp;&nbsp;
+      <input type="reset"  value="Clear Form" name="clrfrm" id="clear-form"/>
+    </div>
+
+  </form>
+
+
+  </article>
+
+  </section>
+  </main>
+<br/>
+  <footer>
+    <hr>
+    <div class="center">
+    <a href="index.html#home"><img src="../images/back_blue.png" alt="Home"></a>
+    </div>
+    <address>
+      <p>Revised: 08/08/2018 by Jason Barrett, webmaster@artedelmundo.com</p>
+    </address>
+  </footer>
+
+</body>
+</html>

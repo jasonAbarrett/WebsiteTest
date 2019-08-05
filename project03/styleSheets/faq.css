@@ -1,0 +1,81 @@
+/* External Style Sheet for faq.html Page
+
+Author:  Jason Barrett
+Date:    07/22/2018
+*/
+nav {
+    text-align: center;
+    font-weight: bolder;
+  }
+
+nav a:link  {
+    color: green;
+}
+
+nav a:hover {
+    color: orange;
+    text-shadow: .2em .2em silver;
+}
+
+header h1   {
+    text-align: center;
+    color: green;
+    font-size: 2.5em;
+    background-color: lightgray;
+}
+
+section h2   {
+    text-align: center;
+    color: green;
+    font-size: 1.75em;
+    }
+
+footer address {
+  text-align: right;
+}
+footer  {
+    background-color: #DDFF7F;
+}
+footer a:link  {
+    coler: green;
+}
+
+div.center  {
+    text-align: center;
+    margin-top: 2em;
+}
+
+h3  {
+  font-size: 1.5em;
+  color: blue;
+  letter-spacing: 5px
+}
+
+h4  {
+  font-size: 1em;
+  color: maroon;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+#questions {
+  box-sizing: border-box;
+  border: 2px solid red;
+  background-color: honeydew;
+  padding: 2em;
+  margin-bottom: 3em;
+  margin-left: 3em;
+  width: 40%
+}
+
+#future {
+  box-sizing: border-box;
+  border-style: outset;
+  border-width: 4px;
+  border-color: lightgray;
+  background-color: peachpuff;
+  padding: 2em;
+  margin-bottom: 2em;
+  margin-left: 4em;
+  margin-right: 2em;
+  width: 40%
+}
